@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katy Ice Cream</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- You can link your CSS file here -->
+    <style>
+        /* Additional inline CSS for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        
+        
+        header {
+            background-color: #ff9f1c;
+            padding: 30px 30px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+            margin:40PX;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ff9f1c;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            text-align: center;
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        .menu-item p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KATY ICE CREAM</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div  class="container">
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Delicious Ice Cream! We are a family-owned ice cream shop located in the heart of Trichy. Our journey began with a passion for creating unique and delicious flavors that bring joy to our customers' taste buds.</p>
+            <p>At Delicious Ice Cream, we pride ourselves on using only the finest ingredients sourced locally whenever possible. Our recipes are crafted with care, ensuring every scoop is packed with flavor and freshness.</p>
+            <p>But we're more than just ice cream. We strive to create a warm and inviting atmosphere for our customers to enjoy their favorite treats with friends and family. Whether you're celebrating a special occasion or simply craving a sweet treat, our shop is the perfect destination.</p>
+            <p>Join us on this delightful journey as we continue to innovate and delight ice cream lovers of all ages. We can't wait to serve you!</p>
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="vanilla.jpg" alt="Vanilla Ice Cream">
+                    <h3>Vanilla</h3>
+                    <p>A classic flavor that never disappoints. Made with real vanilla beans.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="choco.jpg" alt="Chocolate Ice Cream">
+                    <h3>Chocolate</h3>
+                    <p>Rich and creamy chocolate ice cream made with the finest cocoa.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="berry.jpg" alt="Strawberry Ice Cream">
+                    <h3>Strawberry</h3>
+                    <p>Deliciously sweet and fruity strawberry ice cream made with fresh strawberries.</p>
+                </div>
+        
+            </div>
+        </section>
+        <h2>Our Commitment</h2>
+        
+        <ul>
+            <li>Our goal is to be more than just a place to enjoy ice cream.
+                 we aim to be a beloved part of the community, spreading joy one scoop at a time.</li>
+            <li>Commitment to quality, customer service, community involvement, 
+                and sustainability, which are often important values for businesses in the food industry, particularly ice cream shops.</li>
+            <li> We promise to prioritize customer satisfaction by providing exceptional service in a welcoming environment.</li>
+            <li>We are dedicated to supporting our local community by sourcing ingredients 
+                locally whenever possible and actively participating in community events.</li>
+        </ul>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Reach out to us!</p>
+            <form method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Delicious Ice Cream. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>
